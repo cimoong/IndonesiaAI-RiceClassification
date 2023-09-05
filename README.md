@@ -7,11 +7,11 @@ Perlunya sistem yang menjaga kualitas beras yang baik menjadi pertimbahan agar m
 
 ## Informasi Umum
 Dalam Repository ini saya mencoba implementasikan CNN([paper](https://arxiv.org/abs/1511.08458)|[code](https://www.tensorflow.org/tutorials/images/cnn)) dan EfficentNetB0([paper](https://arxiv.org/abs/1905.11946v5)|[code](https://github.com/lukemelas/EfficientNet-PyTorch/blob/2eb7a7d264344ddf15d0a06ee99b0dca524c6a07/efficientnet_pytorch/model.py#L143)) sedangkan untuk dataset [rice](https://www.kaggle.com/datasets/muratkokludataset/rice-image-dataset).
-Dataset rice ini memiliki 5 kelas yakni Arborio, Basmati, Ipsala, Jasmin, dan Karacadag. Berikut sample datasetnya:
+Dataset rice ini memiliki 5 kelas yakni Arborio, Basmati, Ipsala, Jasmin, dan Karacadag. Berikut sample datasetnya: </br>
 Sampel Data Training </br>
 ![](./sample_train.png)<br/>
 Sampel Data Validation </br>
-![](./sample_vallidation.png) </br>
+![](./sample_validation.png) </br>
 Sampel Data Test </br>
 ![](./sample_test.png)
 
@@ -32,7 +32,7 @@ Grafik Accuracy CNN dan EfficentNetB0
 ![](./plot_accuracy.png)
 
 Grafik Loss CNN dan EfficentNetB0
-![](./loss_accuracy.png)
+![](./plot_loss.png)
 
 Classification Report CNN </br>
 ![](./report_cnn.png) </br>
@@ -48,7 +48,7 @@ Confusion Matrix EfficentNetB0 </br>
 
 ## Hasil Prediction
 CNN
-![](./predic_cnn.png)
+![](./predict_cnn.png)
 
 EfficentNetB0
 ![](./predict_eff.png)
