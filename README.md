@@ -1,12 +1,12 @@
 # Final Project - Rice Classification
 
 ## Latar Belakang
-Beras adalah salah satu makanan pokok terutama untuk Bangsa Indonesia. Kalau tidak makan nasi(beras yang sudah dimasak) serasa belum makan. Oleh sebab itu menjadi penting untuk mendapatkan jenis beras yang memiliki kualitas bagus.<br/>
+Beras adalah salah satu makanan pokok terutama untuk Bangsa Indonesia. Kalau tidak makan nasi (beras yang sudah dimasak) serasa belum makan. Oleh sebab itu menjadi penting untuk mendapatkan jenis beras yang memiliki kualitas bagus.<br/>
 Perlunya sistem yang menjaga kualitas beras yang baik menjadi pertimbahan agar membuat repository ini. Oleh karena itu dibuat proejct Rice Classification using CNN and EfficentNetB0.
 ![](./rice_field.jpeg)
 
 ## Informasi Umum
-Dalam Repository ini saya mencoba implementasikan CNN([paper](https://arxiv.org/abs/1511.08458)|[code](https://www.tensorflow.org/tutorials/images/cnn)) dan FCN8([paper](https://arxiv.org/abs/1905.11946v5)|[code](https://github.com/lukemelas/EfficientNet-PyTorch/blob/2eb7a7d264344ddf15d0a06ee99b0dca524c6a07/efficientnet_pytorch/model.py#L143)) sedangkan untuk dataset [rice](https://www.kaggle.com/datasets/muratkokludataset/rice-image-dataset).
+Dalam Repository ini saya mencoba implementasikan CNN([paper](https://arxiv.org/abs/1511.08458)|[code](https://www.tensorflow.org/tutorials/images/cnn)) dan EfficentNetB0([paper](https://arxiv.org/abs/1905.11946v5)|[code](https://github.com/lukemelas/EfficientNet-PyTorch/blob/2eb7a7d264344ddf15d0a06ee99b0dca524c6a07/efficientnet_pytorch/model.py#L143)) sedangkan untuk dataset [rice](https://www.kaggle.com/datasets/muratkokludataset/rice-image-dataset).
 Dataset rice ini memiliki 5 kelas yakni Arborio, Basmati, Ipsala, Jasmin, dan Karacadag. Berikut sample datasetnya:
 Sampel Data Training </br>
 ![](./sample_train.png)<br/>
